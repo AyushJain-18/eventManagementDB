@@ -1,0 +1,20 @@
+{
+  "name": "eventserver",
+  "version": "1.0.0",
+  "description": "database for event management ",
+  "main": "index.js",
+  "homepage": "https://ayushjain-18.github.io/eventManagementDB",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Ayush Jain",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "json-server": "^0.16.3"
+  }
+}
