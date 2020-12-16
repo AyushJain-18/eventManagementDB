@@ -1,9 +1,39 @@
 {
-    "events": {
-        "Event_Name": "",
-        "Description": "",
-        "Venue": "",
-        "Price": "",
-        "Discount": ""
+  "events": [
+    {
+      "Event_Name": "Christmass Party",
+      "Description": "Christmass party celebration on 25th Dec",
+      "Venue": "Delhi",
+      "Price": "2000",
+      "Discount": "10"
+    },
+    {
+      "Event_Name": "Holi Party",
+      "Description": "Will occour in the month of march",
+      "Venue": "Mumbai",
+      "Price": "2000",
+      "Discount": "100"
+    },
+    {
+      "Event_Name": "New Year Party",
+      "Description": "This is year's parts will be same as 2020",
+      "Venue": "Sabh jagah",
+      "Price": "2000",
+      "Discount": "100"
+    },
+    {
+      "Event_Name": "Republic day Parde",
+      "Description": "Stay home Stay safe",
+      "Venue": "TV",
+      "Price": "2000",
+      "Discount": "0"
+    },
+    {
+      "Event_Name": "Random Event",
+      "Description": "No Description available for random events",
+      "Venue": "Strange place",
+      "Price": "200000",
+      "Discount": "80"
     }
+  ]
 }
